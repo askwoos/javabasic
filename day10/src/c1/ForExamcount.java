@@ -60,26 +60,55 @@ public class ForExamcount {
 		System.out.print("정방형을 표시합니다. 단수는: ");
 		
     	int no = sc.nextInt();
+    	int i;
+    	int j;
+    	int k;
+    	int sum =0;
     	
     	
-    	for(int i=0;i <=no;i++) {
+    	//증가시킨다
+    	for(i=1;i <=no;i++) {
+    		//System.out.println("i"+i);
     		
     		
-    		for(int j=1;j <=no-i;j++) {
-	    		
-	    		System.out.print(" ");
-    		}
+    	  	for(j=1;j <=i*2-1;j++) {
+    	  		
+    	  		System.out.println("j"+j);
+    	  		
+    	  	}
     		
-	   		for(int k=1;k <= 2*i-1 ;k++) {
-	   			
-		    		System.out.print("*");
-	    		}
-    		
-            System.out.println();	    		
     		
     	}
-	    	
-	    	
+    	
+    	
+    	
+    	
+    	//홀수만뽑아보자
+    	
+	  
+    	
+    	
+    	
+    	
+//    	
+//    	for(int i=0;i <=no;i++) {
+//    		
+//    		
+//    		for(int j=1;j <=no-i;j++) {
+//	    		
+//	    		System.out.print(" ");
+//    		}
+//    		
+//	   		for(int k=1;k <= 2*i-1 ;k++) {
+//	   			
+//		    		System.out.print("*");
+//	    		}
+//    		
+//            System.out.println();	    		
+//    		
+//    	}
+//	    	
+//	    	
 	    	
 	    	
 	    	
