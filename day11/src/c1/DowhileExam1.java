@@ -89,11 +89,7 @@ public class DowhileExam1 {
 //	    double result = radius * 2 * PI;
 //	    System.out.println(result);        
 //	        
-//	        
-//	    문제 1 나이가 19세 이하이거나 60세 이상이면 할인해주려고 합니다. int형 변수 age의 값을 검사해 할인 대상인지 알아보겠습니다. 
-//	    5행의 빈칸을 수정해 할인 대상이라면 isDiscount에 true를, 그렇지 않으면 isDiscount에 false를 저장하도록 만들어보세요.
-//
-//   
+
 //	        
 		
 				
