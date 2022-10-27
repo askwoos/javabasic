@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<!-- 
+    length
+    concat() 배열합침
+    pop()삭제
+    push()추가
+    reverse()역순정렬
+    sort();
+     -->
+<script>
+
+    var arr1 = ["banana","lemon","apple"];
+    var temp1 = [];
+    document.write(arr1+"<br>");
+
+    
+    for(var i= arr1.length;i > -1; i--){
+        // document.write(i);
+        // document.write(arr1[i-1]);
+        temp1[arr1.length - (i-1)] = arr1[i];
+    }
+    document.write(temp1);
+
+
+
+
+</script>
+
+</body>
+</html>

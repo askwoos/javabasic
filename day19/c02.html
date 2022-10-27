@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+
+var num1 =111;
+var num2 ="2";
+var num3 ="3.5";
+var num4 ="3+3+3";
+
+if(isNaN(num1)){
+    document.write("num" + (num1+1));
+}else{
+    document.write("num1은 숫자<br.");
+}
+
+if(isNaN(num2)){
+    document.write("num2문자");
+}else{
+    document.write("num2은 숫자<br.");
+}
+
+// if(isNaN(num2)){
+//     document.write("num" + (num2+1));
+// }else{
+//     document.write("num 숫자를 문자야<br.");
+// }
+
+
+// document.write(parseInt(num2)+1);
+// document.write(parseFloat(num3)+1);
+// document.write("33333");
+
+document.write(eval(num4));
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
